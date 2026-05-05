@@ -1,0 +1,22 @@
+# Mengabaikan folder dependencies di mana pun posisinya
+node_modules/
+**/node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Mengabaikan folder build Next.js
+.next/
+out/
+
+# Mengabaikan file environment (rahasia database)
+.env
+.env.local
+.env.*
+
+# Mengabaikan log error
+*.log
+npm-debug.log*
+
+# Mengabaikan folder build production lainnya
+build/
+dist/
